@@ -45,6 +45,8 @@ query AccountInfo {
 
 GraphQL queries, when integrated with JavaScript code, can be challenging to read due to a lack of syntax highlighting. Storing GraphQL queries in separate files allows for proper syntax highlighting and contributes to a reduction in verbosity in the JavaScript code. 
 
+Compose graphql queries using separate files using `#import './userFragment.gql'` (dry)
+
 Someone could later create a VSCode Extension to run these graphql queries using .graphql | .gql ( or even .sfgraphql | .sfgql in case sf has a propriety graphql syntax) 
 
 
